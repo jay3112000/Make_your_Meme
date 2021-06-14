@@ -1,0 +1,17 @@
+.home{
+    display: grid;
+    grid-template-columns: repeat(2,550px);
+    
+    grid-gap: 20px;
+    justify-content:space-evenly;
+    position: relative;
+    color: dimgray;
+    align-items: center;
+
+}
+.home-back_image{
+    z-index: -1;
+    width: 100%;
+    object-fit: contain;
+    position: fixed;
+}

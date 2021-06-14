@@ -1,0 +1,14 @@
+.meme-img{
+   
+   
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    overflow: hidden;
+    
+}
+.meme-img-container{
+    width: 120px;
+    height: 120px;
+}
