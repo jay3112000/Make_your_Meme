@@ -73,7 +73,13 @@ const EditPage=(props)=> {
             }
             <button onClick={generateMeme}  class="name noselect">Generate</button>
            
-            <h3 className='neon'>{link}</h3>
+             <a
+           href={link}
+           target='_blank'
+           className='neon'
+           >
+            {link}
+           </a>
             </div>
                
             </div>
